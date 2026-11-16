@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root,
+body {
+    background-color: rgb(234, 239, 255) !important;
+    font-family: "poppins";
+}
+
+button {
+    cursor: pointer;
+}
+
+fieldset input,
+textarea,
+select {
+    min-width: 100%;
+}
+
+table thead tr th {
+    font-family: "poppins" !important;
+}
+
+table th,
+td {
+    min-width: fit-content;
+}
+
+.largerText {
+    font-size: 200px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    /* font-style: stretch; */
+    /* font-family: 'aguafina'; */
+}
